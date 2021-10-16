@@ -1,0 +1,215 @@
+/* Circles container */
+
+.full-panel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 30px;
+    background: #f2f2f2;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    max-width: 800px;
+   
+    box-shadow: 0px 2px 5px 0px rgba(77, 77, 77,0.46);
+    margin: 50px auto;
+}
+/* End of circles container */
+
+/* Circle settings */
+
+.header{
+    color: 1px bold saddlebrown ;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+.pic{
+    
+    background-size: cover; 
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+
+.circle {
+    position:relative;
+    border-radius: 50%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.outer-circle {
+    width:100px;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    box-shadow: 0px 3px 4px rgba(77, 77, 77,0.46);
+}
+
+.inner-circle {
+    width:90px;
+    background-size: cover;
+}
+
+.sq{
+    position: absolute;
+    width: 20%;
+    height: 120%;
+    max-height: 0;
+    background:rgba(242, 92, 5);
+}
+
+.outer-circle:hover .sq{
+
+    max-height: 130%;
+}
+
+/* Circle1 animation settings */
+
+.circle-1 .sq-1 {
+    top: -5%;
+    right: 0;
+    transition: max-height 0.4s linear 0.3s;
+  }
+
+  .circle-1:hover .sq-1 {
+    transition: max-height 0.4s linear 0s;
+  }
+
+  .circle-1 .sq-2 {
+    bottom: -5%;
+    left: 0;
+    transition: max-height 0.4s linear 0s;
+  }
+  .circle-1:hover .sq-2 {
+    transition: max-height 0.4s ease-out 0.3s;
+  }
+
+  /* End of Circle-1 Animation Settings */
+
+  /* Circle-2 Animation Settings */
+.circle-2 .sq-1 {
+    bottom: -5%;
+    right: 0;
+    transition: max-height 0.4s ease-out 0s;
+  }
+  .circle-2:hover .sq-1 {
+    transition: max-height 0.4s linear 0.3s;
+  }
+  .circle-2 .sq-2 {
+    top: -5%;
+    left: 0;
+    transition: max-height 0.4s linear 0.3s;
+  }
+  .circle-2:hover .sq-2 {
+    transition: max-height 0.4s linear 0s;
+  }
+
+  /* End of Circle-2 Animation Settings */
+/* Circle-3 Animation Settings */
+.circle-3 .sq-1 {
+    top: -5%;
+    right: 0;
+    transition: max-height 0.4s linear;
+  }
+  .circle-3 .sq-2 {
+    bottom: -5%;
+    left: 0;
+    transition: max-height 0.4s linear;
+  }
+
+  /* End of Circle-3 Animation Settings */
+/* Circle-4 Animation Settings */
+.circle-4 .sq-1 {
+    bottom: -5%;
+    right: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .circle-4 .sq-2 {
+    top: -5%;
+    left: 0;
+    transition: max-height 0.4s linear;
+  }
+  /* End of Circle-4 Animation Settings */
+  /* Circle-5 Animation Settings */
+  .circle-5 .sq-1 {
+    top: -5%;
+    right: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .circle-5 .sq-2 {
+    top: -5%;
+    left: 0;
+    transition: max-height 0.4s linear;
+  }
+  /* End of Circle-5 Animation Settings */
+  
+  /* Circle-6 Animation Settings */
+  .circle-6 .sq-1 {
+    bottom: -5%;
+    right: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .circle-6 .sq-2 {
+    bottom: -5%;
+    left: 0;
+    transition: max-height 0.4s linear;
+  }
+
+  /* End of Circle-6 Animation Settings */
+/* Circle-7 Animation Settings */
+.circle-7 .sq-1 {
+    bottom: -5%;
+    right: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .circle-7 .sq-2 {
+    bottom: -5%;
+    left: 0;
+    transition: max-height 0.4s linear;
+  }
+
+  /* End of Circle-7 Animation Settings */
+
+  /* Circle-8 Animation Settings */
+.circle-8 .sq-1 {
+    bottom: -5%;
+    right: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .circle-8 .sq-2 {
+    bottom: -5%;
+    left: 0;
+    transition: max-height 0.4s linear;
+  }
+
+  /* End of Circle-8 Animation Settings */
+
+  /* Circle-8 Animation Settings */ 
+.circle-9 .sq-1 {
+    bottom: -5%;
+    right: 0;
+    transition: max-height 0.4s ease-out;
+  }
+  .circle-9 .sq-2 {
+    bottom: -5%;
+    left: 0;
+    transition: max-height 0.4s linear;
+  }
+
+  /* End of Circle-8 Animation Settings */
+
+/* End of Circle Settings */
